@@ -1,4 +1,7 @@
-# Memcached [![Build Status](https://secure.travis-ci.org/3rd-Eden/memcached.svg?branch=master)](http://travis-ci.org/3rd-Eden/memcached)
+# Memecached 
+
+`memecached` is a fork of https://github.com/3rd-Eden/memcached
+Development of original is frozen and they don't even accept patches anymore. I'm not sure about active development here, but you're free to send PR's.   
 
 `memcached` is a fully featured Memcached client for Node.js. `memcached` is
 built with scaling, high availability and exceptional performance in mind. We
@@ -32,7 +35,7 @@ because it demands the binary protocol.
 ## Installation
 
 ```
-npm install memcached
+npm install memecached
 ```
 
 ## Setting up the client
@@ -41,7 +44,7 @@ The constructor of the `memcached` client take 2 different arguments `server
 locations` and `options`. Syntax:
 
 ``` js
-var Memcached = require('memcached');
+var Memcached = require('memecached');
 var memcached = new Memcached(Server locations, options);
 ```
 
